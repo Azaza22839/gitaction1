@@ -9,6 +9,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run script file
       run: |
-         chmod +x ./bash.sh
-         ./bash.sh
+         chmod +x ./.github/workflows/bash.sh
+         ./.github/workflows/bash.sh
       shell: bash
